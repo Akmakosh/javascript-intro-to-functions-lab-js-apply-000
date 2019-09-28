@@ -14,14 +14,10 @@ function logWhisper(string) {
 }
 function sayHiToGrandma(string) {
   var lowercase = string.toLowerCase();
+  var uppercase = string.toUpperCase();
   if (string.toLowerCase() === lowercase){
     return 'I can\'t hear you!'
-  } 
-}
-function sayHiToGrandma(string) {
-  var uppercase = string.toUpperCase();
-  if (string.toUpperCase() === uppercase) {
-  
+  } if (string.toUpperCase() === uppercase) {
   return 'YES INDEED!';
-  } 
-} 
+  } if(string = '')
+}
